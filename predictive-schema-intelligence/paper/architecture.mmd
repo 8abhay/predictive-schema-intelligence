@@ -1,0 +1,8 @@
+flowchart LR
+  A[Schema metadata collector - PROPOSED] --> B[Schema version comparator - IMPLEMENTED as change descriptor]
+  B --> C[Feature extraction - IMPLEMENTED]
+  D[Lineage / dependency analyzer - PROPOSED; simulated by job metadata] --> C
+  C --> E[Risk prediction model - IMPLEMENTED, synthetic data]
+  E --> F[Risk score + explanation - PARTIAL: probability, permutation importance]
+  F --> G[Alert / recommendation layer - PROPOSED]
+  G --> H[CI or orchestrator hook, e.g. Airflow, dbt - PROPOSED, not built]
