@@ -1,0 +1,11 @@
+change_type,type_class,fn,fp,n
+add_column,none,0,0,622
+drop_column,none,0,0,1875
+nullability_relax,none,0,0,760
+nullability_tighten,none,0,0,272
+rename_column,none,0,0,1846
+type_change,from_string,10,0,640
+type_change,narrowing,0,0,1000
+type_change,other,0,0,112
+type_change,to_string,0,0,1463
+type_change,widening,0,0,1024

@@ -1,0 +1,31 @@
+{
+  "seed": 42,
+  "n_pipelines": 500,
+  "n_rows": 150,
+  "changes_per_pipeline": 20,
+  "fingerprint": "6f05f26a54dfd46c5f7f1db17ecbfed35e1051dfec8466c4f4bb34b43af52b95",
+  "duckdb_version": "2.0.0",
+  "n_changes_total": 10000,
+  "n_executed": 9614,
+  "n_migration_rejected": 386,
+  "failure_rate": 0.4086748491782817,
+  "failure_rate_by_change_type": {
+    "add_column": 0.492,
+    "drop_column": 0.8107,
+    "nullability_relax": 0.5684,
+    "nullability_tighten": 0.0,
+    "rename_column": 0.5926,
+    "type_change": 0.1361
+  },
+  "n_by_change_type": {
+    "type_change": 4239,
+    "drop_column": 1875,
+    "rename_column": 1846,
+    "nullability_relax": 760,
+    "add_column": 622,
+    "nullability_tighten": 272
+  },
+  "rejected_by_change_type": {
+    "type_change": 386
+  }
+}
