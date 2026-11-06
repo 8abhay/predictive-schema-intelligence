@@ -1,0 +1,11 @@
+# Novelty and contribution audit (honest version)
+
+1. **Precise contribution:** an open, reproducible, execution-grounded synthetic benchmark for predicting downstream SQL-job failure from schema-change + static-lineage features, with a leakage-aware evaluation (pipeline-grouped CV, outcome-column guards, tests) and secondary analyses (leave-one-change-type-out, prevalence, lineage incompleteness).
+2. **Closest prior work (verified sources only):** the closest *approach* is Su et al. (arXiv:2610.04940, preprint), which learns from executed changes to predict downstream breakage in software systems; the others are static schema-change impact analysis (Maule et al.), schema/code co-evolution mining (Qiu et al.), schema-based data validation (Breck et al.; Schelter et al.), pipeline-quality taxonomy (Foidl et al., preprint), ML job-failure prediction in cloud traces (Jassas & Mahmoud).
+3. **Methodological difference:** labels come from executing SQL rather than from rules or logs; features are pre-execution; ML is compared with rule baselines fixed in advance.
+4. **What is genuinely new:** at most the transfer of execution-labelled breakage prediction to column-level schema changes in SQL pipelines, plus the open benchmark and protocol, *as far as the sources checked show*. The execution-labelling idea itself is not new. The literature search is incomplete, so "novel" cannot be claimed yet.
+5. **Type of contribution:** primarily empirical/methodological (benchmark + protocol). Not architectural, not a validated system.
+6. **Does the evidence support it?** Only for the synthetic, DuckDB-specific setting. Near-perfect scores reflect near-determinism of the benchmark.
+7. **Claims to avoid:** "first", "novel framework", "state of the art", "validated on real pipelines", any statement of industrial applicability, any significance claim.
+8. **Experiments that would strengthen it:** a second SQL engine; real or public schema histories replayed against real queries; an engine-aware rule baseline; silent-semantic-change labels; hidden-job lineage built from actual SQL parsing; cost-sensitive thresholds.
+9. **What cannot be concluded:** real-world predictive accuracy, generalization to unseen change types or engines, or any production benefit.
