@@ -2,6 +2,17 @@
 
 Repository: https://github.com/8abhay/predictive-schema-intelligence
 
+## Paper (preprint) and how to cite
+[
+
+![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24098884.svg)
+
+](https://doi.org/10.5281/zenodo.24098884)
+
+Davale, A. M. (2026). *Towards Predictive Schema Intelligence: Predicting Downstream SQL-Pipeline Failures from Schema Changes on an Execution-Grounded Synthetic Benchmark.* Preprint (not peer reviewed), Zenodo. https://doi.org/10.5281/zenodo.24098884
+
+The preprint describes a synthetic benchmark; its results do not establish performance on real pipelines. The PDF in `paper/manuscript.pdf` is the version deposited on Zenodo (record: https://zenodo.org/records/24098884).
+
 Execution-grounded synthetic benchmark + leakage-aware evaluation of whether schema-change
 characteristics and static lineage predict downstream SQL-pipeline failures *before* execution.
 This is a proof-of-concept study on **synthetic** data, not a production system.
