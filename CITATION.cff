@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this code or cite the paper, please use the preferred citation below."
+title: "Predictive Schema Intelligence: execution-grounded benchmark for schema-change failure prediction (code)"
+type: software
+authors:
+  - family-names: Davale
+    given-names: Abhay Malhari
+    affiliation: "Independent Researcher, Kolhapur, Maharashtra, India"
+repository-code: "https://github.com/8abhay/predictive-schema-intelligence"
+license: MIT
+preferred-citation:
+  type: generic
+  title: "Towards Predictive Schema Intelligence: Predicting Downstream SQL-Pipeline Failures from Schema Changes on an Execution-Grounded Synthetic Benchmark"
+  authors:
+    - family-names: Davale
+      given-names: Abhay Malhari
+      affiliation: "Independent Researcher, Kolhapur, Maharashtra, India"
+  year: 2026
+  month: 11
+  doi: "10.5281/zenodo.24098884"
+  publisher:
+    name: Zenodo
+  notes: "Preprint, not peer reviewed. Synthetic benchmark."
